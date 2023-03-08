@@ -1,4 +1,4 @@
-import org.junit.Assert;
+import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MergeSortTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void sort() {
         int[] unsorted = new int[] {2, 1, -1, 4, 3};
         int[] sorted = MergeSort.sort(unsorted);
