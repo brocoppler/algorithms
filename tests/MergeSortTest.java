@@ -8,10 +8,11 @@ class MergeSortTest {
 
     @Test
     void sort() {
-        int[] unsorted = new int[] {2, 1, -1, 4, 3};
-        int[] sorted = MergeSort.sort(unsorted);
-        System.out.println(Arrays.toString(sorted));
+        int[] unsorted = new int[] {2, 1, 0, -1, -2};
+        MergeSort ms = new MergeSort();
+        int[] sorted = ms.sort(unsorted);
         Arrays.sort(unsorted);
         assertArrayEquals(unsorted, sorted);
+        assertEquals(10, ms.getInversions());
     }
 }

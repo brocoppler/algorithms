@@ -3,9 +3,11 @@ import java.util.Arrays;
 
 public class MergeSort {
 
+    private int inversions = 0;
+
     MergeSort() {}
 
-    public static int[] sort(int[] unsorted) {
+    public int[] sort(int[] unsorted) {
         // split in half
         // call sort on each half
         int[] sorted = new int[unsorted.length];
@@ -24,7 +26,7 @@ public class MergeSort {
      * This should always be passed two *sorted* arrays
      * to merge together
      */
-    private static int[] merge(int[] left, int[] right) {
+    private int[] merge(int[] left, int[] right) {
         int n = left.length + right.length;
         int[] merged = new int[n];
         int i = 0;
@@ -36,6 +38,7 @@ public class MergeSort {
             } else if (right[j] < left[i]) {
                 merged[k] = right[j];
                 j++;
+                inversions = inversions + (left.length - i);
             } else {
                 merged[k] = left[i];
                 merged[k + 1] = right[j];
@@ -54,5 +57,9 @@ public class MergeSort {
         }
 
         return merged;
+    }
+
+    public int getInversions() {
+        return inversions;
     }
 }

@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84e3e932-353e-4c7b-a076-23cf5d19b9fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Karatsuba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/KaratsubaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/MergeSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/MergeSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KaratsubaTest.multiply">
+  <component name="RunManager" selected="JUnit.MergeSortTest.sort">
     <configuration name="KaratsubaTest.multiply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="PACKAGE_NAME" value="" />
@@ -81,8 +80,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KaratsubaTest.multiply" />
         <item itemvalue="JUnit.MergeSortTest.sort" />
+        <item itemvalue="JUnit.KaratsubaTest.multiply" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +106,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MergeSort.java</url>
-          <line>46</line>
+          <line>49</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
